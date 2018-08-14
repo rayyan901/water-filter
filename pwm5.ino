@@ -82,7 +82,7 @@ void filter_f() {
 Serial.println("--- Initiate filter");
 digitalWrite(dir,0);  
 analogWrite(motor, fadeValue); 
-
+delay(300);
 
 do{
 while(digitalRead(filter));
