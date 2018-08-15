@@ -14,9 +14,9 @@ int motor = 9;    // pwm
 int dir = 8;
 
 int filter = 2;
-int bwash = 2;
-int stopp = 4;
-int rinse = 2;
+//int bwash = 2;
+//int stopp = 4;
+//int rinse = 2;
 int stop_switch = 6;
 
 int backwash_timer=5;
@@ -33,9 +33,9 @@ void setup() {
   
   pinMode(dir, OUTPUT);
   pinMode(filter, INPUT_PULLUP);
-  pinMode(bwash, INPUT_PULLUP);
-  pinMode(stopp, INPUT_PULLUP);
-  pinMode(rinse, INPUT_PULLUP);
+ // pinMode(bwash, INPUT_PULLUP);
+ // pinMode(stopp, INPUT_PULLUP);
+ // pinMode(rinse, INPUT_PULLUP);
   pinMode(stop_switch, INPUT_PULLUP);
   // nothing happens in setup
 }
